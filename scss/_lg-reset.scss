@@ -1,0 +1,18 @@
+$fuente-principal: 'Avenir ', sans-serif;
+$azul-marino: #253B56;
+$azul-hover-menu:#1994d7; 
+$celeste-menu: #EBF6FC;
+@mixin display{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin absolute{
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);   
+}
+@mixin pseudoelementos{
+    content: "";
+}
