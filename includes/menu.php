@@ -181,7 +181,26 @@
                         </span>
                     </ul>
                 </li>
-                <li class="items"><i class="icon-shopping-cart"></i>Cart</li>
+                <li class="items"><i class="icon-shopping-cart"></i>Cart
+                    <ul class="submenu cart_right">                
+                        <span class="submenu_lado_izquierda left_cart">
+                            <div class="first_group group_submenu group_submenu_cart">
+                                <li class="tittle_submenu tittle_cart">Your Cart</li>
+                                <p class="sub_carrito state_cart">Your cart is empty.</p>
+                                <div class="container_img_cart">
+                                    <img class="tickets_cart" src="imagenes/ticket.png" alt="">
+                                    <p class="add_ticket">Add Tickets</p>
+                                </div>
+                                <span class="total_cart">
+                                    <span class="total_text">Total</span>
+                                    <span class="dolar">$0.00
+                                        <i>USD</i>
+                                    </span>
+                                </span>
+                            </div>
+                        </span>
+                    </ul>
+                </li>
             </ul>
         </div>
    </div>

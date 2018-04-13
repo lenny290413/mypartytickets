@@ -6,6 +6,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    background: white;
     .medio{
         padding: 5px 10px 0; 
         display: flex;
@@ -63,7 +64,7 @@ nav{
     }
 }
 //submenu
-.submenu{
+.submenu{ 
     opacity: 0;
     height: 0;
     position: absolute;
@@ -75,6 +76,7 @@ nav{
     border-radius: 0 0 10px 10px;
     overflow: hidden;
     z-index: -1;
+    transition: all .3s;
 }
 .submenu_lado_izquierda{
     display: flex;
@@ -99,7 +101,7 @@ nav{
             background: #1994D7;
             color: white;
             
-        }
+        }  
     }
 }
 .tittle_submenu{
@@ -215,3 +217,71 @@ border-left: 1px solid #DDD;
     right: 20px;
     position: absolute;
 }
+
+
+// SUBMENU CART
+
+
+.tittle_cart{
+    padding-top: 0;
+    padding-bottom: 7px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    width: 100%;
+}
+.state_cart{
+    border-top:1px solid #dfdfdf;
+    padding-left: 20px;
+    font-weight: 400;
+    width: 100%;
+    padding-top: 10px;
+}
+.tickets_cart{
+    width: 50px;
+    height: 50px;
+}
+.group_submenu_cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.cart_right{
+    left: -188px;
+    width: 280px;  
+    border-top: 1px solid #DDDDDD;  
+    
+    .submenu_lado_izquierda{
+        border-right: none;
+    }
+}
+
+.container_img_cart{
+    box-shadow: 0 2px 5px #d1d1d1;
+    background:-webkit-linear-gradient(top,#feffff 23%,#f2f6fb 80%);
+    padding: 14px 0;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(209, 209, 209) 0px 2px 5px 0px;
+}
+ .total_cart{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 10px 20px;
+     margin-top: 10px;
+     .dolar{
+         display: flex;
+         font-size: 19px;
+         font-weight: bold;
+         i{
+             font-weight: 400;
+             font-size: 11px;
+         }
+     }
+ }
+ .left_cart{
+     width: 100%;
+ }

@@ -9,11 +9,14 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/fuente.css">
+    <link rel="stylesheet" href="css/inicio.css">
 </head>
     <?php
         include 'includes/menu.php'
     ?>
 <body>
-    
+    <div class="slider">
+        <img src="imagenes/slider.jpg" alt="">
+    </div>
 </body>
 </html>
